@@ -3,7 +3,7 @@ import { useState } from 'react'
 //import viteLogo from '/vite.svg'
 import './App.css'
 import LogoutButton from './profile/Logout'
-import riskImage from '../assets/imgs/risk_logo.png';
+import riskImage from './assets/imgs/risk_logo.png';
 
 
 function App() {
