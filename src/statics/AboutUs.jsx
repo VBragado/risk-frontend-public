@@ -1,4 +1,6 @@
 import Navbar from "../common/Navbar"
+import muskImage from '../assets/imgs/musk.png';
+import zukImage from '../assets/imgs/zuk.png';
 
 function AboutUS(){
     return(
@@ -8,7 +10,8 @@ function AboutUS(){
             <div id="items-column">
                 <div id="item-description-and-photo">
                     <div id="item-photo-container">
-                        <img src="src/assets/imgs/musk.png"/>
+                        <img src={muskImage}/>
+                        
                     </div>    
                     <div id="item-description-container">
                         <h1>Manuel</h1>
