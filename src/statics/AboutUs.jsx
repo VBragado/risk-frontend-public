@@ -22,7 +22,7 @@ function AboutUS(){
                     
                 <div id="item-description-and-photo">
                     <div id="item-photo-container">
-                        <img src="src/assets/imgs/zuk.png"/>
+                        <img src={zukImage}/>
                     </div>    
                     <div id="item-description-container">
                         <h1>Vicente</h1>

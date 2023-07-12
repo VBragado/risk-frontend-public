@@ -3,6 +3,8 @@ import { useState } from 'react'
 //import viteLogo from '/vite.svg'
 import './App.css'
 import LogoutButton from './profile/Logout'
+import riskImage from '../assets/imgs/risk_logo.png';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +15,7 @@ function App() {
         
         <div className='menu'>
         <div className="logo1">
-          <img src="/src/assets/imgs/risk_logo.png" className="logo1" alt="RISK" />
+          <img src={riskImage} className="logo1" alt="RISK" />
         </div>
         <div className="logoName">
           RISK
