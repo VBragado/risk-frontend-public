@@ -1,0 +1,60 @@
+.container {
+    width: 1200px; 
+    height: 600px; 
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    
+  }
+  
+  .map-container {
+    position: relative;
+    width: 800px;
+    height: 100%;
+  }
+  
+  .map {
+    width: 800px;
+    height: 100%;
+    background-image: url("../assets/imgs/world_map.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .north-america {
+    width: 200px;
+    height: 200px;
+    background-image: url("../assets/imgs/brazil_flag.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+
+  .map-area.hovered {
+    cursor: pointer;
+  }
+
+  .infobar {
+    position: absolute;
+    top: 0;
+    width: 180px; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .infobar-left {
+    left: 0;
+  }
+  
+  .infobar-right {
+    right: 0;
+  }

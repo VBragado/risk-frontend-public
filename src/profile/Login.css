@@ -1,0 +1,134 @@
+
+
+
+.Login {
+    width: 550px;
+    margin: 5px;
+    padding: 20px;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 30px 10px 360px rgba(0, 0, 0, 1);
+    background-color: rgba(55, 59, 68, 0.95);
+    
+    font-size: 50px;
+    font-weight: bold;
+
+  }
+  
+  .Login form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .Login form input[type="text"],
+  .Login form input[type="email"],
+  .Login form input[type="password"] {
+    padding: 20px;
+    margin: 10px;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 10px 360px rgba(0, 0, 0, 1);
+    background-color: rgba(55, 59, 68, 0.95); /* Slightly see-through */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    font-family: 'Play', sans-serif;
+    line-height: 1.6;
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-size: 40px;
+  }
+
+  .Login form input[type="text"]:hover,
+  .Login form input[type="email"]:hover,
+  .Login form input[type="password"]:hover {
+    transform: scale(1.05); /* Pulsate on hover */
+  }
+  
+  .Login form input[type="text"]:focus,
+  .Login form input[type="email"]:focus,
+  .Login form input[type="password"]:focus  {
+    outline: none;
+    box-shadow: 0 0 5px #ccc; /* Highlight on focus */
+  }
+  
+  .Login form input[type="submit"] {
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Play', sans-serif;
+
+    cursor: pointer;
+    background-color: rgba(55, 59, 68, 0.95);
+    text-align: justify;
+    padding: 10px;
+    margin: 5px;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 30px 10px 360px rgba(0, 0, 0, 1);
+    position: relative;
+
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    align-self: center;
+  }
+  
+  .Login form input[type="submit"]:hover {
+    color: #fff;
+    background-color: rgba(20, 14, 33, 0.2);
+  }
+
+  .error {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ff4d4d; /* red */
+    border-radius: 5px;
+    color: #ff4d4d; /* red */
+    background-color: #ffe6e6; /* light red */
+    text-align: center;
+  }
+
+  .successMsg {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #5cff4d; /* green */
+    border-radius: 5px;
+    color: #2aff86; /* green */
+    background-color: #e9ffe6; /* light green */
+    text-align: center;
+  }
+
+  .logout_button button{
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Play', sans-serif;
+
+    cursor: pointer;
+    background-color: rgba(55, 59, 68, 0.95);
+    text-align: justify;
+    padding: 10px;
+    margin: 5px;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 30px 10px 360px rgba(0, 0, 0, 1);
+    position: relative;
+
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    align-self: center;
+
+  }
+
+  .logout_button button:hover {
+    color: #fff;
+    background-color: rgba(20, 14, 33, 0.2);
+  }

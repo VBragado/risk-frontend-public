@@ -1,0 +1,100 @@
+.avatar{
+    max-width: 250px;
+}
+
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 1300px;
+  }
+  
+.slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+  }
+  
+.slide {
+    display: inline-block;
+  
+    height: 1200px;
+    width: 100%;
+    border-radius: 40px;
+  }
+  
+  /* Buttons */
+  
+  .slideshowDots {
+    text-align: center;
+  }
+  
+  .slideshowDot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  
+    cursor: pointer;
+    margin: 15px 7px 0px;
+  
+    background-color: #c4c4c4;
+  }
+  
+.slideshowDot.active {
+    background-color: #e10e0e;
+  }
+
+.grid-container{
+    flex-direction: column;
+}
+
+#item-description-container p {
+    font-size: 24px;
+    height: 100px;
+    max-width: 650px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.item-card-container{
+  display: flex;
+  justify-content: center;
+}
+
+
+#soldier{
+  max-width: 200px;
+  max-height: 276px;
+}
+
+#tank{
+  max-width: 175px;
+}
+
+#iron{
+  max-width: 200px;
+  max-height: 266px;
+}
+
+#wheat{
+  max-width: 200px;
+  max-height: 266px;
+}
+
+#oil{
+  max-width: 200px;
+  max-height: 266px;
+}
+
+/* efectos hover tablero vicho BoardGame */
+
+.grid-element {
+    background-repeat: no-repeat;
+  background-position: center;
+    cursor: pointer;
+  }
+  
+  .grid-element:hover {
+    outline: none;
+    transform: scale(2);
+  box-shadow: 0 0 500px #ccc; 
+  }

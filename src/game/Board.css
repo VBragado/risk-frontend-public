@@ -1,0 +1,109 @@
+.container {
+    width: 1300px; 
+    height: 600px; 
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    
+  }
+  
+  .map-container {
+    position: relative;
+    width: 800px;
+    height: 100%;
+  }
+  
+  .map {
+    width: 800px;
+    height: 100%;
+    background-image: url("../assets/imgs/world_map.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+  }
+
+  .map-area.hovered {
+    cursor: pointer;
+  }
+
+  .infobar {
+    position: absolute;
+    top: 0;
+    width: 180px; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .infobar-left {
+    left: 0;
+  }
+  
+  .infobar-right {
+    right: 0;
+  }
+  
+
+  .game-board{
+    background-image: url("../assets/imgs/world_map.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px  80px 80px 80px 80px 80px; /* suma 800*/
+    grid-template-rows: 40px 40px 40px 40px 40px  40px 40px 40px 40px 100px; /* suma 520*/
+    justify-content: center;
+   }
+
+.box {
+    background-color: black;;
+    border: 2px solid black;
+    opacity: 0;
+}
+
+.wall{
+    background-color:black;
+    opacity: 0;
+
+  }
+  .value {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    -webkit-text-fill-color: rgb(255, 4, 4); /* Hide the text fill color */
+  -webkit-text-stroke-width: .5px; /* Set the width of the white border */
+  -webkit-text-stroke-color: rgb(255, 4, 4);
+    transition: font-size 0.3s ease;
+  }
+  
+  .value:hover {
+    font-size: 24px; /* Increase font size on hover */
+  }
+  
+  .flag {
+    width: auto;
+    height: auto;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 80px;
+    max-height: 40px;
+    color: rgb(255, 4, 4);
+    font-size: 30px;
+  }
+  
+  .flag:hover {
+    transform: scale(1.2); /* Increase size on hover */
+  }
+  .flag:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ccc; /* Highlight on focus */
+  }
+
+  .flag img {
+    width: 40px;
+    height: 40px;
+  }
